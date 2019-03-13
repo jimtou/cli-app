@@ -84,7 +84,7 @@ setTimeout(refreshServerInfo, 100);
 setInterval(refreshServerInfo, 15 * 1000);
 
 const version = require('./package.json').version;
-vorpal.log(chalk.green(`Running IOTA CLI v${version}\n`));
+vorpal.log(chalk.green(`Running BCC CLI v${version}\n`));
 
 // Give the iotajs connection time to settle before processing command line params
 // TODO make this more deterministic.  timeouts = ugly

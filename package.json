@@ -1,7 +1,7 @@
 {
     "name": "iota-cli-app",
     "version": "1.0.8",
-    "description": "IOTA CLI",
+    "description": "BCC CLI",
     "main": "index.js",
     "engines": {
         "node": ">=8"
@@ -21,7 +21,7 @@
         "app",
         "wallet"
     ],
-    "author": "IOTA Foundation <info@iotatoken.com>",
+    "author": "BCC Foundation <info@iotatoken.com>",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/iotaledger/cli-app/issues"
