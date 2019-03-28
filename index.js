@@ -24,7 +24,7 @@ const data = {
 
 const iotajs = new IOTA({
   host: 'http://localhost',
-  port: 24265
+  port: 14265
 });
 
 let refreshAccountDataTimer;
