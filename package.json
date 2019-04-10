@@ -1,5 +1,5 @@
 {
-    "name": "iota-cli-app",
+    "name": "bcc-cli-app",
     "version": "1.0.8",
     "description": "BCC CLI",
     "main": "index.js",
@@ -13,24 +13,24 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/iotaledger/cli-app.git"
+        "url": "git+https://github.com/bcashclassic/wallet.git"
     },
     "keywords": [
         "cli",
-        "iota",
+        "bcc",
         "app",
         "wallet"
     ],
-    "author": "BCC Foundation <info@iotatoken.com>",
+    "author": "BCC Foundation <dev@bcashclassic.org>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/iotaledger/cli-app/issues"
+        "url": "https://github.com/bcashclassic/wallet/issues
     },
     "preferGlobal": true,
     "bin": {
         "iota-cli": "index.js"
     },
-    "homepage": "https://github.com/iotaledger/cli-app#readme",
+    "homepage": "https://github.com/bcashclassic/wallet#readme",
     "dependencies": {
         "bluebird": "^3.4.7",
         "chalk": "^2.3.0",

@@ -3,7 +3,7 @@
 
 const chalk = require('chalk');
 const config = require('./lib/config');
-const IOTA = require('iota.lib.js');
+const TANGLE = require('iota.lib.js');
 const prompt = require('./lib/prompt');
 const setupCommands = require('./lib/commands/index');
 const vorpal = require('vorpal')();
@@ -22,7 +22,7 @@ const data = {
   seed: ''
 };
 
-const iotajs = new IOTA({
+const iotajs = new TANGLE({
   host: 'http://localhost',
   port: 14265
 });
