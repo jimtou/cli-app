@@ -24,11 +24,11 @@
     "author": "BCC Foundation <dev@bcashclassic.org>",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/bcashclassic/wallet/issues
+        "url": "https://github.com/bcashclassic/wallet/issues"
     },
     "preferGlobal": true,
     "bin": {
-        "iota-cli": "index.js"
+        "bcc-cli": "index.js"
     },
     "homepage": "https://github.com/bcashclassic/wallet#readme",
     "dependencies": {
