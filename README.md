@@ -8,8 +8,8 @@ You need:
 1. [Node.js](https://nodejs.org) installed on your matching.  
 1. A functioning [BCC node](https://github.com/bcashclassic/bcashclassic) to connect to.  The BCC node can be on the same computer as the CLI, but the CLI can work with remote nodes as well if they are configured using `--remote`.
 
-To install:
-`npm install -g bcc-cli-app`
+To install in the source directory:
+`npm install
 
 ## Usage
 
